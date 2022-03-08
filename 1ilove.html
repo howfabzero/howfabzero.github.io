@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>ILove</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+home {
+  float: left;
+  width: 100%;
+  height: auto; /* only for demonstration, should be removed */
+  background: #100;
+  padding: 20px;
+
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ffffff;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #ffffff;
+  height: auto; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #100;
+  padding: auto;
+  font-size: 10px;
+  text-align: center;
+  color: White;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: 70%;
+  }
+}
+</style>
+</head>
+<body>
+
+<home>
+<a href="index.html">
+<h3>Home</h3>
+</a>
+</home>
+
+
+<section>
+  <nav>
+    <img src="img\1.I Love.jpg" alt="I Love" width="300" height="300">
+  </nav>
+
+  <article>
+    <h3>Title    : Amo | I Love | أنا أحب </h3>
+    <h3>Auther   : </h3>
+    <h3>ISBN     : 9789935496306 </h3>
+    <h3>Publisher:  </h3>
+    <h3>Category :</h3>
+    <h3>Year     :</h3>
+
+    <p>“I love” è un racconto molto semplice basato sull'abbinamento di immagini e colori. Incoraggia i bambini a identificare attivamente colori diversi e a collegarli agli oggetti nel mondo che li circonda, in modo che non rimangano concetti astratti.</p>
+    <p>“I love” is a very simple book story based on the matching of images and colours. It encourages children to actively identify different colours and to link them to objects in the world around them, so that they do not remain abstract concepts.</p>
+
+      <p>تدور قصة "أنا أحب" بين عوالم عدّة.
+قصة بسيطة جداً تقوم على وضع صور وألوان، ومن ثم تحفيز ذهن الطفل على معرفة الاسم واللون ووضعهما مكان النقط. يتميز الكتاب في حثه على مشاركة الطفل في البحث عن الألوان، وربط الألوان بالطبيعة والكون من حولنا، كي لا تبقى ألواناً مجردة.</p>
+  </article>
+</section>
+
+<a href="index.html">
+<img src="img\icon\Logo1.jpeg"  alt="home" width="auto" height="auto" align="middle">
+</a>
+
+<footer>
+  <p2>Created by Al Jazri Lab, House of Wisdom</p2>
+</footer>
+
+</body>
+</html>
